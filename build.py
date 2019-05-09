@@ -1,4 +1,5 @@
 from bincrafters import build_template_default
+import os
 
 # see https://github.com/bincrafters/bincrafters-package-tools/blob/master/README.md
 # see https://github.com/conan-io/conan-package-tools/blob/develop/README.md
