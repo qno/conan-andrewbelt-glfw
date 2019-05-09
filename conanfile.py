@@ -89,8 +89,8 @@ class GlfwConan(ConanFile):
         del self.settings.compiler.libcxx
 
     def source(self):
-        tools.get("https://github.com/AndrewBelt/glfw/archive/master.zip")
-        os.rename("glfw-master", self._source_subfolder)
+        tools.get("https://github.com/AndrewBelt/glfw/archive/openedFilename.zip")
+        os.rename("glfw-openedFilename", self._source_subfolder)
 
     def _configure_cmake(self):
         cmake = CMake(self)
