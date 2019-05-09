@@ -1,2 +1,5 @@
 # conan-andrewbelt-glfw
-A conan recipe for glfw fork for VCVRack.
+A [conan](https://conan.io/) recipe for [glfw fork for VCVRack](https://github.com/AndrewBelt/glfw).
+***
+
+***
