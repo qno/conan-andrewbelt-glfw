@@ -4,7 +4,7 @@ from conans import ConanFile, CMake, tools
 
 
 class GlfwConan(ConanFile):
-    name = "VCVRack-glfw"
+    name = "glfw"
     version = "3.3"
     description = "The GLFW library [VCVRack fork] - Builds on Windows, Linux and Macos/OSX."
     settings = "os", "arch", "build_type", "compiler"
