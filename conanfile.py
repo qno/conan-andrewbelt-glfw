@@ -90,8 +90,7 @@ class GlfwConan(ConanFile):
 
     def source(self):
         tools.get("https://github.com/AndrewBelt/glfw/archive/master.zip")
-        extracted_folder = self.name + '-' + self.version
-        os.rename(extracted_folder, self._source_subfolder)
+        os.rename("glfw-master", self._source_subfolder)
 
     def _configure_cmake(self):
         cmake = CMake(self)
