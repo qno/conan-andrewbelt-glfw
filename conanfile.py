@@ -89,7 +89,9 @@ class GlfwConan(ConanFile):
         del self.settings.compiler.libcxx
 
     def source(self):
-        tools.get("https://github.com/AndrewBelt/glfw/archive/openedFilename.zip")
+        url = "https://github.com/AndrewBelt/glfw/archive/openedFilename.zip"
+        self.output.info("Downloading {}".format(url))
+        tools.get(url)
         os.rename("glfw-openedFilename", self._source_subfolder)
 
     def _configure_cmake(self):
