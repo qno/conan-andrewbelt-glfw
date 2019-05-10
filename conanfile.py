@@ -12,7 +12,7 @@ class GlfwConan(ConanFile):
     default_options = {'shared': False, "fPIC": True}
     license = "Zlib"
     url = "https://github.com/qno/conan-andrewbelt-glfw"
-    homepage = "https://github.com/AndrewBelt/glfw"
+    homepage = "https://github.com/AndrewBelt/glfw/tree/openedFilename"
     author = "Bincrafters <bincrafters@gmail.com>"
     topics = ("conan", "gflw", "opengl", "vulcan", "opengl-es")
     exports = "LICENSE"
