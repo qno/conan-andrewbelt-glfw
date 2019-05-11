@@ -225,6 +225,12 @@ jobs:
       vmImage: vs2017-win2016
     strategy:
       matrix:
+        GCC 7 Release:
+          MINGW_CONFIGURATIONS: '7@x86_64@seh@posix'
+          CONAN_BUILD_TYPES: Release
+        GCC 7 Debug:
+          MINGW_CONFIGURATIONS: '7@x86_64@seh@posix'
+          CONAN_BUILD_TYPES: Debug
         GCC 8 Release:
           MINGW_CONFIGURATIONS: '8@x86_64@seh@posix'
           CONAN_BUILD_TYPES: Release
